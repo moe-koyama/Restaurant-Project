@@ -1,0 +1,122 @@
+@font-face {
+	font-family: 'Maiandra GD';
+	src:local('MMaiandra GD Regular.zip')
+}
+body{
+  font-family: 'Maiandra GD';
+	background-color: #FFFFFF;
+}
+.header-list ul{
+  padding: 15px 35px;
+}
+.header-list li {
+  list-style:none;
+  float: right;
+  font-size: 20px;
+  padding-right: 40px;
+}
+.header-list a {
+  text-decoration:none;
+  color: #000000;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all  0.3s ease;
+}
+a:hover {
+  color: #ECA077;
+}
+.header {
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 70px;
+}
+.header-logo {
+  float: left;
+  font-size: 25px;
+  padding: 10px 40px;
+}
+.concept {
+  margin: 100px 50px 150px 50px;
+  width: 100%;
+  display:flex;
+	justify-content: space-between;
+}
+.text{
+	position: relative;
+}
+.text h1{
+  font-size: 40px;
+  text-shadow: 0px 15px 0px rgba(236,160,119,0.5);
+}
+.text p {
+  font-size: 20px;
+  line-height: 3;
+  display: block;
+	margin-top: 45px;
+	margin-bottom: 45px;
+  padding-right: 300px
+}
+.image {
+	text-align:center;
+	margin-right:100px;
+	padding-right: 100px;
+}
+.restrant{
+  margin:40px 10px;
+}
+.footer{
+	background-color:#ECA077;
+  height:150px;
+	display:table;
+	width: 100%;
+}
+.footer-logo{
+	display:table-cell;
+  text-align:center;
+	vertical-align: middle;
+	line-height: 1.5;
+}
+.footer-logo p{
+	margin: 0 auto;
+}
+.cards {
+	width: 100%;
+	background: #fff;
+	display: flex;
+	flex-wrap: wrap;
+}
+.card {
+	flex: auto;
+	width: 22%;
+	margin: 0px 20px 20px 20px;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px #ccc;
+}
+.card-img {
+  border-radius: 5px 5px 0 0;
+  max-width: 100%;
+  height: auto;
+}
+.card-content {
+  padding: 15px;
+}
+.card-title {
+  font-size: 30px;
+	margin-top:10px;
+  margin-bottom: 10px;
+  color: #333;
+}
+.card-text {
+  color: #777;
+  font-size: 14px;
+  line-height: 1.8;
+}
+.card-info {
+  border-top: 1px solid ##ECA077;
+	color: #333;
+	font-size: 13px;
+}
+.fas {
+	padding-right: : 5px;
+}
